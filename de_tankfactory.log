@@ -482,3 +482,124 @@ Level flags = 7c
 Total triangle count: 492
 Writing d:\sourcemapping\de_tankfactory.bsp
 0 seconds elapsed
+
+
+
+materialPath: D:\Program Files\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\SourceMapping\de_tankfactory.vmf
+Map revision 6
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SourceMapping\de_tankfactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10053 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 23
+Reduced 5 texdatas to 5 (114 bytes to 114)
+Writing D:\SourceMapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\sourcemapping\de_tankfactory.bsp
+reading d:\sourcemapping\de_tankfactory.prt
+  64 portalclusters
+ 177 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3128
+Average clusters visible: 48
+Building PAS...
+Average clusters audible: 63
+visdatasize:1546  compressed from 1024
+writing d:\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\sourcemapping\de_tankfactory.bsp
+264 faces
+331059 square feet [47672552.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+264 patches before subdivision
+11516 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 324191, max 251
+transfer lists:   2.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 27/8192          324/98304    ( 0.3%) 
+brushsides             183/65536        1464/524288   ( 0.3%) 
+planes                 178/65536        3560/1310720  ( 0.3%) 
+vertexes               378/65536        4536/786432   ( 0.6%) 
+nodes                  131/65536        4192/2097152  ( 0.2%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  264/65536       14784/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               93/65536        5208/3670016  ( 0.1%) 
+facebrushes             18/0              36/0        ( 0.0%) 
+facebrushlists         264/0            1056/0        ( 0.0%) 
+leaves                 133/65536        4256/2097152  ( 0.2%) 
+leaffaces              310/65536         620/131072   ( 0.5%) 
+leafbrushes             84/65536         168/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1605/512000       6420/2048000  ( 0.3%) 
+edges                  861/256000       3444/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           342/65536         684/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      643276/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1546/16777216 ( 0.0%) 
+entdata               [variable]         462/393216   ( 0.1%) 
+LDR ambient table      133/65536         532/262144   ( 0.2%) 
+HDR ambient table      133/65536         532/262144   ( 0.2%) 
+LDR leaf ambient        64/65536        1792/1835008  ( 0.1%) 
+HDR leaf ambient       133/65536        3724/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       10053/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 706
+Writing d:\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
