@@ -603,3 +603,1366 @@ Level flags = 7c
 Total triangle count: 706
 Writing d:\sourcemapping\de_tankfactory.bsp
 0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.vmf
+Map revision 6
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10053 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 23
+Reduced 5 texdatas to 5 (114 bytes to 114)
+Writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.prt
+  64 portalclusters
+ 177 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3128
+Average clusters visible: 48
+Building PAS...
+Average clusters audible: 63
+visdatasize:1546  compressed from 1024
+writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+264 faces
+331059 square feet [47672552.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+264 patches before subdivision
+11516 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 324191, max 251
+transfer lists:   2.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 27/8192          324/98304    ( 0.3%) 
+brushsides             183/65536        1464/524288   ( 0.3%) 
+planes                 178/65536        3560/1310720  ( 0.3%) 
+vertexes               378/65536        4536/786432   ( 0.6%) 
+nodes                  131/65536        4192/2097152  ( 0.2%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  264/65536       14784/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               93/65536        5208/3670016  ( 0.1%) 
+facebrushes             18/0              36/0        ( 0.0%) 
+facebrushlists         264/0            1056/0        ( 0.0%) 
+leaves                 133/65536        4256/2097152  ( 0.2%) 
+leaffaces              310/65536         620/131072   ( 0.5%) 
+leafbrushes             84/65536         168/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1605/512000       6420/2048000  ( 0.3%) 
+edges                  861/256000       3444/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           342/65536         684/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      643276/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1546/16777216 ( 0.0%) 
+entdata               [variable]         462/393216   ( 0.1%) 
+LDR ambient table      133/65536         532/262144   ( 0.2%) 
+HDR ambient table      133/65536         532/262144   ( 0.2%) 
+LDR leaf ambient        64/65536        1792/1835008  ( 0.1%) 
+HDR leaf ambient       133/65536        3724/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       10053/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 706
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.vmf
+Map revision 9
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18414 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 47
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.prt
+ 107 portalclusters
+ 311 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 13 visible clusters (0.00%)
+Total clusters visible: 8728
+Average clusters visible: 81
+Building PAS...
+Average clusters audible: 107
+visdatasize:3872  compressed from 3424
+writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+411 faces
+359986 square feet [51838084.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+411 patches before subdivision
+15125 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 659840, max 253
+transfer lists:   5.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 49/8192          588/98304    ( 0.6%) 
+brushsides             320/65536        2560/524288   ( 0.5%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               592/65536        7104/786432   ( 0.9%) 
+nodes                  229/65536        7328/2097152  ( 0.3%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  411/65536       23016/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              178/65536        9968/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         411/0            1644/0        ( 0.0%) 
+leaves                 234/65536        7488/2097152  ( 0.4%) 
+leaffaces              519/65536        1038/131072   ( 0.8%) 
+leafbrushes            124/65536         248/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2646/512000      10584/2048000  ( 0.5%) 
+edges                 1435/256000       5740/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             49/32768         490/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           750/65536        1500/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      872584/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3872/16777216 ( 0.0%) 
+entdata               [variable]        1385/393216   ( 0.4%) 
+LDR ambient table      234/65536         936/262144   ( 0.4%) 
+HDR ambient table      234/65536         936/262144   ( 0.4%) 
+LDR leaf ambient       125/65536        3500/1835008  ( 0.2%) 
+HDR leaf ambient       234/65536        6552/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       18414/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1114
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.vmf
+Map revision 9
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18414 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 47
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.prt
+ 107 portalclusters
+ 311 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 13 visible clusters (0.00%)
+Total clusters visible: 8728
+Average clusters visible: 81
+Building PAS...
+Average clusters audible: 107
+visdatasize:3872  compressed from 3424
+writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+411 faces
+359986 square feet [51838084.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+411 patches before subdivision
+15125 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 659840, max 253
+transfer lists:   5.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0051 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 49/8192          588/98304    ( 0.6%) 
+brushsides             320/65536        2560/524288   ( 0.5%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               592/65536        7104/786432   ( 0.9%) 
+nodes                  229/65536        7328/2097152  ( 0.3%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  411/65536       23016/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              178/65536        9968/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         411/0            1644/0        ( 0.0%) 
+leaves                 234/65536        7488/2097152  ( 0.4%) 
+leaffaces              519/65536        1038/131072   ( 0.8%) 
+leafbrushes            124/65536         248/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2646/512000      10584/2048000  ( 0.5%) 
+edges                 1435/256000       5740/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             49/32768         490/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           750/65536        1500/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      872584/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3872/16777216 ( 0.0%) 
+entdata               [variable]        1385/393216   ( 0.4%) 
+LDR ambient table      234/65536         936/262144   ( 0.4%) 
+HDR ambient table      234/65536         936/262144   ( 0.4%) 
+LDR leaf ambient       125/65536        3500/1835008  ( 0.2%) 
+HDR leaf ambient       234/65536        6552/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       18414/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1114
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18414 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 47
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.prt
+ 108 portalclusters
+ 312 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 13 visible clusters (0.00%)
+Total clusters visible: 8777
+Average clusters visible: 81
+Building PAS...
+Average clusters audible: 108
+visdatasize:3910  compressed from 3456
+writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+415 faces
+359859 square feet [51819836.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+415 patches before subdivision
+15157 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 660960, max 257
+transfer lists:   5.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0051 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 49/8192          588/98304    ( 0.6%) 
+brushsides             320/65536        2560/524288   ( 0.5%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               596/65536        7152/786432   ( 0.9%) 
+nodes                  230/65536        7360/2097152  ( 0.4%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  415/65536       23240/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              178/65536        9968/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         415/0            1660/0        ( 0.0%) 
+leaves                 235/65536        7520/2097152  ( 0.4%) 
+leaffaces              523/65536        1046/131072   ( 0.8%) 
+leafbrushes            124/65536         248/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2662/512000      10648/2048000  ( 0.5%) 
+edges                 1443/256000       5772/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             49/32768         490/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           753/65536        1506/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      872640/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3910/16777216 ( 0.0%) 
+entdata               [variable]        1386/393216   ( 0.4%) 
+LDR ambient table      235/65536         940/262144   ( 0.4%) 
+HDR ambient table      235/65536         940/262144   ( 0.4%) 
+LDR leaf ambient       126/65536        3528/1835008  ( 0.2%) 
+HDR leaf ambient       235/65536        6580/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       18414/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1122
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+415 faces
+359859 square feet [51819836.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+415 patches before subdivision
+15157 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 660960, max 257
+transfer lists:   5.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0081 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 49/8192          588/98304    ( 0.6%) 
+brushsides             320/65536        2560/524288   ( 0.5%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               596/65536        7152/786432   ( 0.9%) 
+nodes                  230/65536        7360/2097152  ( 0.4%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  415/65536       23240/3670016  ( 0.6%) 
+hdr faces              415/65536       23240/3670016  ( 0.6%) 
+origfaces              178/65536        9968/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         415/0            1660/0        ( 0.0%) 
+leaves                 235/65536        7520/2097152  ( 0.4%) 
+leaffaces              523/65536        1046/131072   ( 0.8%) 
+leafbrushes            124/65536         248/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2662/512000      10648/2048000  ( 0.5%) 
+edges                 1443/256000       5772/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             49/32768         490/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           753/65536        1506/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      872640/0        ( 0.0%) 
+HDR lightdata         [variable]      872640/0        ( 0.0%) 
+visdata               [variable]        3910/16777216 ( 0.0%) 
+entdata               [variable]        1386/393216   ( 0.4%) 
+LDR ambient table      235/65536         940/262144   ( 0.4%) 
+HDR ambient table      235/65536         940/262144   ( 0.4%) 
+LDR leaf ambient       126/65536        3528/1835008  ( 0.2%) 
+HDR leaf ambient       126/65536        3528/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       18414/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1122
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.vmf
+Map revision 11
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18790 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 47
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.prt
+ 109 portalclusters
+ 312 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 9 visible clusters (0.00%)
+Total clusters visible: 8874
+Average clusters visible: 81
+Building PAS...
+Average clusters audible: 109
+visdatasize:3948  compressed from 3488
+writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+425 faces
+362419 square feet [52188476.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+425 patches before subdivision
+15511 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 690232, max 257
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0049 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 50/8192          600/98304    ( 0.6%) 
+brushsides             326/65536        2608/524288   ( 0.5%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               612/65536        7344/786432   ( 0.9%) 
+nodes                  232/65536        7424/2097152  ( 0.4%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  425/65536       23800/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         425/0            1700/0        ( 0.0%) 
+leaves                 237/65536        7584/2097152  ( 0.4%) 
+leaffaces              533/65536        1066/131072   ( 0.8%) 
+leafbrushes            125/65536         250/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2726/512000      10904/2048000  ( 0.5%) 
+edges                 1479/256000       5916/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           759/65536        1518/131072   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      886576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3948/16777216 ( 0.0%) 
+entdata               [variable]        1386/393216   ( 0.4%) 
+LDR ambient table      237/65536         948/262144   ( 0.4%) 
+HDR ambient table      237/65536         948/262144   ( 0.4%) 
+LDR leaf ambient       127/65536        3556/1835008  ( 0.2%) 
+HDR leaf ambient       237/65536        6636/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       18790/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1154
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+425 faces
+362419 square feet [52188476.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+425 patches before subdivision
+15511 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 690232, max 257
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0061 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 50/8192          600/98304    ( 0.6%) 
+brushsides             326/65536        2608/524288   ( 0.5%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               612/65536        7344/786432   ( 0.9%) 
+nodes                  232/65536        7424/2097152  ( 0.4%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  425/65536       23800/3670016  ( 0.6%) 
+hdr faces              425/65536       23800/3670016  ( 0.6%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         425/0            1700/0        ( 0.0%) 
+leaves                 237/65536        7584/2097152  ( 0.4%) 
+leaffaces              533/65536        1066/131072   ( 0.8%) 
+leafbrushes            125/65536         250/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2726/512000      10904/2048000  ( 0.5%) 
+edges                 1479/256000       5916/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           759/65536        1518/131072   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      886576/0        ( 0.0%) 
+HDR lightdata         [variable]      886576/0        ( 0.0%) 
+visdata               [variable]        3948/16777216 ( 0.0%) 
+entdata               [variable]        1386/393216   ( 0.4%) 
+LDR ambient table      237/65536         948/262144   ( 0.4%) 
+HDR ambient table      237/65536         948/262144   ( 0.4%) 
+LDR leaf ambient       127/65536        3556/1835008  ( 0.2%) 
+HDR leaf ambient       127/65536        3556/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       18790/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1154
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.vmf
+Map revision 11
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18790 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 47
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.prt
+ 109 portalclusters
+ 312 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 9 visible clusters (0.00%)
+Total clusters visible: 8874
+Average clusters visible: 81
+Building PAS...
+Average clusters audible: 109
+visdatasize:3948  compressed from 3488
+writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+425 faces
+362419 square feet [52188476.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+425 patches before subdivision
+15511 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 690232, max 257
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0069 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 50/8192          600/98304    ( 0.6%) 
+brushsides             326/65536        2608/524288   ( 0.5%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               612/65536        7344/786432   ( 0.9%) 
+nodes                  232/65536        7424/2097152  ( 0.4%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  425/65536       23800/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         425/0            1700/0        ( 0.0%) 
+leaves                 237/65536        7584/2097152  ( 0.4%) 
+leaffaces              533/65536        1066/131072   ( 0.8%) 
+leafbrushes            125/65536         250/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2726/512000      10904/2048000  ( 0.5%) 
+edges                 1479/256000       5916/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           759/65536        1518/131072   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      886576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3948/16777216 ( 0.0%) 
+entdata               [variable]        1386/393216   ( 0.4%) 
+LDR ambient table      237/65536         948/262144   ( 0.4%) 
+HDR ambient table      237/65536         948/262144   ( 0.4%) 
+LDR leaf ambient       127/65536        3556/1835008  ( 0.2%) 
+HDR leaf ambient       237/65536        6636/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       18790/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1154
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+425 faces
+362419 square feet [52188476.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+425 patches before subdivision
+15511 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 690232, max 257
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0058 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 50/8192          600/98304    ( 0.6%) 
+brushsides             326/65536        2608/524288   ( 0.5%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               612/65536        7344/786432   ( 0.9%) 
+nodes                  232/65536        7424/2097152  ( 0.4%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  425/65536       23800/3670016  ( 0.6%) 
+hdr faces              425/65536       23800/3670016  ( 0.6%) 
+origfaces              181/65536       10136/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         425/0            1700/0        ( 0.0%) 
+leaves                 237/65536        7584/2097152  ( 0.4%) 
+leaffaces              533/65536        1066/131072   ( 0.8%) 
+leafbrushes            125/65536         250/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2726/512000      10904/2048000  ( 0.5%) 
+edges                 1479/256000       5916/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             51/32768         510/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           759/65536        1518/131072   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      886576/0        ( 0.0%) 
+HDR lightdata         [variable]      886576/0        ( 0.0%) 
+visdata               [variable]        3948/16777216 ( 0.0%) 
+entdata               [variable]        1386/393216   ( 0.4%) 
+LDR ambient table      237/65536         948/262144   ( 0.4%) 
+HDR ambient table      237/65536         948/262144   ( 0.4%) 
+LDR leaf ambient       127/65536        3556/1835008  ( 0.2%) 
+HDR leaf ambient       127/65536        3556/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       18790/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1154
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.vmf
+Map revision 12
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19574 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 47
+Reduced 6 texdatas to 6 (133 bytes to 133)
+Writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.prt
+ 116 portalclusters
+ 338 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 8 visible clusters (0.00%)
+Total clusters visible: 8970
+Average clusters visible: 77
+Building PAS...
+Average clusters audible: 116
+visdatasize:4402  compressed from 3712
+writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+456 faces
+366188 square feet [52731196.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+456 patches before subdivision
+16620 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 746230, max 256
+transfer lists:   5.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0084 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             338/65536        2704/524288   ( 0.5%) 
+planes                 276/65536        5520/1310720  ( 0.4%) 
+vertexes               667/65536        8004/786432   ( 1.0%) 
+nodes                  247/65536        7904/2097152  ( 0.4%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  456/65536       25536/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              191/65536       10696/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         456/0            1824/0        ( 0.0%) 
+leaves                 252/65536        8064/2097152  ( 0.4%) 
+leaffaces              557/65536        1114/131072   ( 0.8%) 
+leafbrushes            135/65536         270/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2938/512000      11752/2048000  ( 0.6%) 
+edges                 1589/256000       6356/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             58/32768         580/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           846/65536        1692/131072   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      908384/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        4402/16777216 ( 0.0%) 
+entdata               [variable]        1387/393216   ( 0.4%) 
+LDR ambient table      252/65536        1008/262144   ( 0.4%) 
+HDR ambient table      252/65536        1008/262144   ( 0.4%) 
+LDR leaf ambient       134/65536        3752/1835008  ( 0.2%) 
+HDR leaf ambient       252/65536        7056/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       19574/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1264
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+456 faces
+366188 square feet [52731196.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+456 patches before subdivision
+16620 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 746230, max 256
+transfer lists:   5.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0062 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             338/65536        2704/524288   ( 0.5%) 
+planes                 276/65536        5520/1310720  ( 0.4%) 
+vertexes               667/65536        8004/786432   ( 1.0%) 
+nodes                  247/65536        7904/2097152  ( 0.4%) 
+texinfos                47/12288        3384/884736   ( 0.4%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  456/65536       25536/3670016  ( 0.7%) 
+hdr faces              456/65536       25536/3670016  ( 0.7%) 
+origfaces              191/65536       10696/3670016  ( 0.3%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         456/0            1824/0        ( 0.0%) 
+leaves                 252/65536        8064/2097152  ( 0.4%) 
+leaffaces              557/65536        1114/131072   ( 0.8%) 
+leafbrushes            135/65536         270/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2938/512000      11752/2048000  ( 0.6%) 
+edges                 1589/256000       6356/1024000  ( 0.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             58/32768         580/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           846/65536        1692/131072   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      908384/0        ( 0.0%) 
+HDR lightdata         [variable]      908384/0        ( 0.0%) 
+visdata               [variable]        4402/16777216 ( 0.0%) 
+entdata               [variable]        1387/393216   ( 0.4%) 
+LDR ambient table      252/65536        1008/262144   ( 0.4%) 
+HDR ambient table      252/65536        1008/262144   ( 0.4%) 
+LDR leaf ambient       134/65536        3752/1835008  ( 0.2%) 
+HDR leaf ambient       134/65536        3752/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       19574/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1264
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.vmf
+Map revision 15
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20930 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 63 texinfos to 58
+Reduced 7 texdatas to 7 (171 bytes to 171)
+Writing C:\Users\Workstation Oculus\Documents\Aleks Code\SourceMapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+reading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.prt
+ 127 portalclusters
+ 377 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 28 visible clusters (0.00%)
+Total clusters visible: 10819
+Average clusters visible: 85
+Building PAS...
+Average clusters audible: 126
+visdatasize:5122  compressed from 4064
+writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+492 faces
+371223 square feet [53456148.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+492 patches before subdivision
+17548 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 810405, max 265
+transfer lists:   6.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             365/65536        2920/524288   ( 0.6%) 
+planes                 302/65536        6040/1310720  ( 0.5%) 
+vertexes               709/65536        8508/786432   ( 1.1%) 
+nodes                  267/65536        8544/2097152  ( 0.4%) 
+texinfos                58/12288        4176/884736   ( 0.5%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  492/65536       27552/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              206/65536       11536/3670016  ( 0.3%) 
+facebrushes             22/0              44/0        ( 0.0%) 
+facebrushlists         492/0            1968/0        ( 0.0%) 
+leaves                 272/65536        8704/2097152  ( 0.4%) 
+leaffaces              605/65536        1210/131072   ( 0.9%) 
+leafbrushes            144/65536         288/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3150/512000      12600/2048000  ( 0.6%) 
+edges                 1704/256000       6816/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             54/32768         540/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           768/65536        1536/131072   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      933040/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        5122/16777216 ( 0.0%) 
+entdata               [variable]        1387/393216   ( 0.4%) 
+LDR ambient table      272/65536        1088/262144   ( 0.4%) 
+HDR ambient table      272/65536        1088/262144   ( 0.4%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient       272/65536        7616/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       20930/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1346
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+492 faces
+371223 square feet [53456148.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+492 patches before subdivision
+17548 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 810405, max 265
+transfer lists:   6.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0050 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             365/65536        2920/524288   ( 0.6%) 
+planes                 302/65536        6040/1310720  ( 0.5%) 
+vertexes               709/65536        8508/786432   ( 1.1%) 
+nodes                  267/65536        8544/2097152  ( 0.4%) 
+texinfos                58/12288        4176/884736   ( 0.5%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  492/65536       27552/3670016  ( 0.8%) 
+hdr faces              492/65536       27552/3670016  ( 0.8%) 
+origfaces              206/65536       11536/3670016  ( 0.3%) 
+facebrushes             22/0              44/0        ( 0.0%) 
+facebrushlists         492/0            1968/0        ( 0.0%) 
+leaves                 272/65536        8704/2097152  ( 0.4%) 
+leaffaces              605/65536        1210/131072   ( 0.9%) 
+leafbrushes            144/65536         288/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3150/512000      12600/2048000  ( 0.6%) 
+edges                 1704/256000       6816/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             54/32768         540/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           768/65536        1536/131072   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      933040/0        ( 0.0%) 
+HDR lightdata         [variable]      933040/0        ( 0.0%) 
+visdata               [variable]        5122/16777216 ( 0.0%) 
+entdata               [variable]        1387/393216   ( 0.4%) 
+LDR ambient table      272/65536        1088/262144   ( 0.4%) 
+HDR ambient table      272/65536        1088/262144   ( 0.4%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74454/0        ( 0.0%) 
+physics               [variable]       20930/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1346
+Writing c:\users\workstation oculus\documents\aleks code\sourcemapping\de_tankfactory.bsp
+1 second elapsed
